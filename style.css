@@ -1,0 +1,64 @@
+body{
+    font-family: 'poppy' sans-serif;
+    background-color: rgb(221, 140, 41);
+}
+.card{
+    position: relative;
+    margin: 150px auto;
+    width: 450px;
+    padding:20px;
+    box-shadow: 10px 15px 20px  rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border: 0;
+ 
+}
+.circle{
+    border-radius: 3px;
+    width: 125px;
+    height: 125px;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7,65,158,1) 53%, rgba(0,212,255,1) 100%);
+    border-bottom-left-radius: 170px;
+}
+.content{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600px;
+    letter-spacing: 0.5px;
+    color: rgb(68, 68, 68);
+}
+.social-media{
+    margin-bottom: 5px;
+}
+/* .social-media:hover{
+    background-color: rgb(41, 110, 35);
+} */
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 200px;
+}
+
+a:hover{
+    background-color: crimson;
+}
+
+i{
+    font-weight: 400px;
+
+}      
+
